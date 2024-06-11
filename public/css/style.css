@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    word-wrap: break-word;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel-caption {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 4.7rem;
+    color: rgb(255, 255, 255);
+    top: 0;
+    background-color: rgba(42, 42, 45, 0.747);
+    /* padding: 100%; */
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption h5 {
+    font-size: 24px;
+}
+
+.button-dashboard {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 15px;
+    background: #0086fd;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-dashboard:hover {
+    background: #006dcd;
+}
+.button-login {
+    transition: all 0.3s ease-in-out;
+    background: #0086fd;
+    font-weight: 500;
+}
+
+.button-login:hover {
+    background: #006dcd;
+}
+
+.carousel-bgku {
+    background-color: #56585b;
+}
+
+.colnya {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    width: 480px;
+    height: 160px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.colnya a {
+    color: white;
+    text-align: center;
+}
+.colnya p:first-child {
+    font-size: 18px;
+}
+
+.status-disposisi {
+    font-size: 67px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    padding: 20px;
+    /* background-color: #56585b; */
+    /* line-height: 260px; */
+    word-wrap: break-word;
+    color: #1f1f1f;
+    margin-top: 100px;
+}
+
+.btn-viewall button {
+    border-radius: 0;
+    padding: 16px 50px;
+}
+
+.footer {
+    background: #1e1c31;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.rownya {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 98px 80px;
+}
+
+.columnya {
+    margin: 0 40px 0 0;
+    padding: 10px;
+}
+
+.columnya:last-child {
+    margin-right: 0;
+}
+
+.body-footer-satu p {
+    display: inline-block;
+    align-items: center;
+}
+
+.text-desc-footer {
+    text-align: justify;
+}
+
+.logos-icon-footer a {
+    text-align: justify;
+    color: #0086fd;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+}
+.logos-icon-footer i {
+    font-size: 20px;
+}
+
+.logos-icon-footer a:hover {
+    color: white;
+    background-color: #0086fd;
+}
